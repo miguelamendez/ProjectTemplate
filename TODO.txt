@@ -1,0 +1,4 @@
+##TODO list
+
+Move the README AND LICENSE templates from the script and allow to select them from local folder.
+Fix the creation of the new project to be defined outside the projects_template repo.
