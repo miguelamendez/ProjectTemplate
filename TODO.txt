@@ -1,4 +1,12 @@
 ##TODO list
 
-Move the README AND LICENSE templates from the script and allow to select them from local folder.
-Fix the creation of the new project to be defined outside the projects_template repo.
+1.-Move the README AND LICENSE templates from the script and allow to select them from local folder.
+2.-Fix the creation of the new project to be defined outside the projects_template repo.
+3.-Add parameter author when creating the script also use it for the online repos such as github
+4.-Add releases builds folder (lets call if builds instead of realeases because it can contain multiple output files (for a thesis/blogpost could be the pdf generated from the latex plus the models trained and api to run them)). For this particular project the build project will contain the scripts necesary to create a git project.
+	4.1-Add to the git_hub script a way to push the build versions into the releases folder 
+5.-Organize the Todo list maybe add a script
+6.-Add gitignore for json files and auth file  (maybe will be deprecated after organizing the builds)
+7.-Add configuration file when the project grows.
+	7.1 The configuration file could call templates for different projects, the default template is the minimal parts that constitute a project , the the templates can add extra information.
+	7.8 This is important as specific projects will require specific information.
